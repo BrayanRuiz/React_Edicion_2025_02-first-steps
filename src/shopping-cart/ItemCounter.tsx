@@ -31,8 +31,9 @@ const ItemCounter = ({name, quantity = 1}: Props) => {
             <button
                 onClick={handleAdd}
             >+1</button>
-            <span>{count}</span>
+            <span data-testid="count">{count}</span>
             <button
+                data-testid="button-decrease"
                 onClick={handleSubtract}
             >-1</button>
         </section>

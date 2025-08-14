@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > shourd march snapshot 1`] = `
+<div>
+  <div>
+    <h1
+      data-testid="first-name-title"
+    >
+      Brayan
+    </h1>
+    <h3>
+      Ruiz
+    </h3>
+    <p>
+      4
+    </p>
+    <p
+      class="mi-clase-favorita"
+    >
+      Elden Ring, Smash, Metal Gear
+    </p>
+    <h1>
+      Activo
+    </h1>
+    <p
+      style="background-color: red;"
+    >
+      {"zipCode":53534,"city":"Monterrey"}
+    </p>
+  </div>
+</div>
+`;
